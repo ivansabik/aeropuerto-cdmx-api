@@ -8,30 +8,32 @@ API no oficial de infor del Aeropuerto de la Cd. de México, tomada de http://ww
 
 ### LLegadas
 
- - /llegadas/
-  - ?q=ARRIBO
-  - ?q=A TIEMPO
-  - ?q=DEMORADO
- - /llegadas/nacional
- - /llegadas/internacional
- - /salidas/internacional
+ - /llegadas
+ - /llegadas?estado=arribo
+ - /llegadas?estado=a+tiempo
+ - /llegadas?estado=demorado
+ - /llegadas?procedencia=nacional
+ - /llegadas?procedencia=internacional
+ - /salidas?procedencia=internacional
 
 ### LLegadas
 
- - /salidas/
-  - ?q=DESPEGO
-  - ?q=DEMORADO
-  - ?q=CANCELADO
- - /salidas/nacional
+ - /salidas
+ - /salidas?estado=despego
+ - /salidas?estado=demorado
+ - /salidas?estado=cancelado
+ - /salidas?destino=nacional
+ - /salidas?destino=internacional
 
 ### Transporte
 
- - /transporte/taxi/colonia?q=SANTA FE
- - /transporte/taxi/hoteles
- - /transporte/taxi/clinicas-hospitales
- - /transporte/taxi/oficinas-gobierno-embajadas
- - /transporte/taxi/sitios-interes
- - /transporte/taxi/centros-ensenianza
- - /transporte/taxi/foraneo
+ - /transporte?tipo=taxi&colonia_destino=santa+fe
+ - /transporte?tipo=taxi&destinos
+ - /transporte?tipo=taxi&destino=hoteles
+ - /transporte?tipo=taxi&destino=clinicas_hospitales
+ - /transporte?tipo=taxi&destino=gobierno_embajadas
+ - /transporte?tipo=taxi&destino=sitios_interes
+ - /transporte?tipo=taxi&destino=centros_ensenianza
+ - /transporte?tipo=taxi&destino=foraneo
 
 ##### Para taxis http://www.yellowcab.com.mx/tarifador2.php
