@@ -3,6 +3,12 @@ Aeropuerto DF API
 [![Build Status](https://travis-ci.org/mexicapis/aeropuertodf-api.svg)](https://travis-ci.org/mexicapis/aeropuertodf-api)
 
 API REST no oficial del Aeropuerto del la Ciudad de Mexico, proporciona informacion de llegadas y salidas.
+Puedes probarla en http://mexicapis.org.mx/aeropuertodf, ej:
+
+ - http://mexicapis.org.mx/aeropuertodf/llegadas?tipo=nacional
+ - http://mexicapis.org.mx/aeropuertodf/llegadas?tipo=internacional 
+ - http://mexicapis.org.mx/aeropuertodf/salidas?tipo=nacional
+ - http://mexicapis.org.mx/aeropuertodf/salidas?tipo=internacional
 
 ## API
 
